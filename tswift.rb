@@ -53,12 +53,28 @@ def mergeStrings(a,b)
         counter += 1
     end while counter < a.length or counter < b.length
 
-    puts returnString
+    return returnString
 end
 
 print mergeStrings("bandy", "calibrate")
 
 
+def countPalindromes(s) 
+
+    counter_front = 0
+    counter_back = -s.length
+    num_palindromes = 0
+    
+    for i in range(s.length/2)
+    begin
+        if s[counter_front] == s[counter_back]
+            num_palindromes += 1
+        end until counter_front == s.length/2
+            
+        end
+        
+    
+end
 
 
 

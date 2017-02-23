@@ -1,8 +1,3 @@
-# print "What is your name? "
-# name = gets.chomp
-# puts "Hello #{name}!"
-
-
 def isPalindrome(str)
 
     return str == str.reverse    
@@ -35,24 +30,3 @@ def pali_counter(str)
 
     return counter
 end
-
-
-
-# def pali_counter(str):
-#     counter = 0
-
-#     for i, char in enumerate(str):
-#         curr_str = char
-#         j = i + 1 
-
-#         while j <= len(str):
-
-#             if is_palindrome(curr_str):
-#                 counter += 1
-#             if j != len(str):
-#                 curr_str = curr_str + str[j]
-#             j += 1
-        
-#     return counter
-
-
