@@ -14,7 +14,7 @@ def pali_counter(str)
         j = enum + 1
 
         while j <= str.length
-            puts curr_str
+
             if j == str.length
                 counter += 1 unless not isPalindrome(curr_str)
                 j += 1
@@ -23,10 +23,15 @@ def pali_counter(str)
                 curr_str += str[j]
                 j += 1
             end
-            puts counter
+
         end
         enum += 1
+
     end
 
     return counter
 end
+
+puts pali_counter('aaa')
+puts pali_counter('abccba')
+puts pali_counter('daata')
